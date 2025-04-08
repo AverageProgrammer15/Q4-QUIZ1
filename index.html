@@ -1,0 +1,52 @@
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <center>
+    <div class="container" id="Values">
+     <h1>BMI Calculator</h1>
+     <hr>
+     <input placeholder="Weight" id="Weight_Input" type="number" class="form-control">
+     <br><br>
+     <input placeholder="Height" id="Height_Input" type="number" class="form-control">
+     <br><br>
+     <button onclick="CheckBMI('Weight_Input', 'Height_Input', 'BMI_Result', 'Cat_Result')" class="btn btn-primary">Check BMI</button>
+     <br><br>
+    </div>
+    </center>
+    <div class="container" id="Output">
+        <center>
+        <h1>Output</h1>
+        <details>
+            <summary>See how it works:</summary>
+            <div id="Details">
+                <p>BMI = Weight (kg) / Height² (m²)</p>
+            <p><strong>Explanation:</strong> The Body Mass Index (BMI) is a simple calculation used to assess whether a person has a healthy body weight for a given height. It is calculated by dividing your weight in kilograms by the square of your height in meters.</p>
+            <p><strong>Interpretation:</strong> 
+            <p>
+            Underweight: BMI less than 18.5
+            <br>
+            Normal weight: BMI between 18.5 and 24.9
+            <br>
+            Overweight: BMI between 25 and 29.9
+            <br>
+            Obesity: BMI 30 or higher</p>
+            
+            </p>
+            <p><strong>Limitations:</strong> BMI doesn't account for factors like muscle mass or distribution of fat, so it may not be a perfect indicator of health for all individuals. For example, athletes with high muscle mass might have a higher BMI but not be overweight or unhealthy.</p>
+            </div>
+        </details>
+        
+        <hr>
+        <h3>BMI: <span id="BMI_Result">N/A</span></h3>
+        <h3>Category Result: <span id="Cat_Result">N/A</span></h3>
+        </center>
+    </div>
+
+    <footer>
+        Daradal, Allen Jaden B. | 9 - Topaz | April 8, 2025
+    </footer>
+</body>

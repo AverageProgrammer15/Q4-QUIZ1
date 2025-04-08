@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjZA1oDcQ3YcWHKDxuCeCFbkZz84-POIqpYg&s");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Output{
+    border-style: dotted;
+    background-color: lightblue;
+    border-radius: 15px;
+    
+}
+
+#Values{
+    border-style: solid;
+    margin: 10px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    border-style: solid;
+    background: cornflowerblue;
+    border-radius: 15px;
+}
+
+#Details{
+    border-style: solid;
+    background-color: white;
+}
